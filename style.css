@@ -1,0 +1,31 @@
+html {
+    font-size: 10px;
+    background: url('./images/bookImage.jpeg') bottom center;
+    background-size: cover;
+  }
+
+.question{
+    color:  blue;
+    font-size: 25px;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+}
+
+.answer{
+    color: yellow;
+    font-size: 25px;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+}
+
+.number{
+    color: white;
+    font-size: 30px;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+}
+
+#button{
+    background-color: lightblue;  
+    color: black;  
+    font-size: 25px;  
+    justify-content: center;  
+    align-items: center;  
+}
