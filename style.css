@@ -5,27 +5,28 @@ html {
   }
 
 .question{
-    color:  blue;
-    font-size: 25px;
-    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    color:  green;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .answer{
     color: yellow;
-    font-size: 25px;
-    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .number{
     color: white;
-    font-size: 30px;
-    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #button{
     background-color: lightblue;  
     color: black;  
-    font-size: 25px;  
+    font-size: 20px;  
     justify-content: center;  
     align-items: center;  
 }
+
