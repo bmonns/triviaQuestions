@@ -29,6 +29,9 @@ async function getTriviaFunction(num){
 
         joke.appendChild(question)
         answer.appendChild(lineBreak)
+        answer.appendChild(lineBreak)
+        answer.appendChild(lineBreak)
+
         joke.appendChild(answer)
         jokeList.appendChild(joke)
     }
