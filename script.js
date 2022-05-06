@@ -19,25 +19,25 @@ async function getTriviaFunction(num){
         joke.setAttribute('class','number')
         const question = document.createElement('div')
         const answer = document.createElement('div')
+        const difficulty = document.createElement('div')
         const lineBreak = document.createElement('br')
 
         question.innerText = `Question: ${jsonData.results[i].question}`
         question.setAttribute('class','question')
 
-        answer.setAttribute('class','answer')
         answer.innerText = `Answer: ${jsonData.results[i].correct_answer}`
+        answer.setAttribute('class','answer')
+
+        difficulty.innerText = `Difficulty: ${jsonData.results[i].difficulty}`
+        difficulty.setAttribute('class','difficulty')
 
         joke.appendChild(question)
-        answer.appendChild(lineBreak)
-        answer.appendChild(lineBreak)
-        answer.appendChild(lineBreak)
-
         joke.appendChild(answer)
+        joke.appendChild(difficulty)
+        joke.appendChild(lineBreak)
         jokeList.appendChild(joke)
     }
-
     divvy.appendChild(jokeList)
-
 }
 
 document.getElementById('button').addEventListener("click", ()=>{
